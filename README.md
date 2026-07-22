@@ -13,7 +13,22 @@ This is a local, Ollama-powered prompt injection CTF that has 3 levels for intre
 Your goal is to get the flag from the LLM in each challenge. Use all the tricks in your toolbox. If you get stuck and feel like giving up, you can always inspect the source code, though I encourage you to try your best before looking at the answers. 
 
 
+In case you get confused during setup, the directory tree looks like this:
 
+```
+├── Prompt_Injection_CTF/
+│   ├── level1/
+│   │   ├── level1.py
+│   │   └── Modelfile.one
+│   ├── level2/
+│   │   └── level2.py
+│   │   └── Modelfile.two
+│   ├── level3/
+│   │   └── level3.py
+│   │   └── Modelfile.three
+│   ├── requirements.txt
+│   └── README.md
+```
 ## Prerequisites:
 
 In order to successfully run this challenge on your device, you must have a properly configured Ollama installation and at least 10GB of free space on your storage device for the LLMs and all associated software.
