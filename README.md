@@ -28,6 +28,7 @@ In case you get confused during setup, the directory tree looks like this:
 │   │   └── Modelfile.three
 │   ├── requirements.txt
 │   └── README.md
+│   └── LICENSE
 ```
 ## Prerequisites:
 
