@@ -48,7 +48,7 @@ In order to successfully run this challenge on your device, you must have a prop
 - ```ollama create level2 -f level2/Modelfile.two``` 
 - ```ollama create level3 -f level3/Modelfile.three```
 5. Run ```python level1/level1.py``` and get to hacking!
-6. When you're ready to move on to the next level, run the same command and run: ```python level2/level2.py``` or ```python level3/level3.py``` 
+6. When you're ready to move on to the next level, run: ```python level2/level2.py``` or ```python level3/level3.py``` 
 
 
 ## Disclaimer:
