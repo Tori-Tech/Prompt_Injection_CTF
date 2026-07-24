@@ -40,13 +40,12 @@ In order to successfully run this challenge on your device, you must have a prop
 1. Clone the repository and ``cd`` into it.
 2. Install all required libraries using ```pip install -r requirements.txt```
 3. Pull the ollama model required: ```ollama pull llama3.2:3b```
-4. ``cd`` into the ``/modelfiles`` directory. Create the custom bots for levels 1, 2, and 3. Run each command separately: 
-- ```ollama create level1 -f Modelfile.one```
-- ```ollama create level2 -f Modelfile.two``` 
-- ```ollama create level3 -f Modelfile.three```
-5. ```cd``` back into the root project directory.
-6. Run ```python level1.py``` and get to hacking!
-7. When you're ready to move on to the next level, run the same command and run: ```python level2.py``` or ```python level3.py``` 
+4. Create the custom bots for levels 1, 2, and 3. Run each command separately: 
+- ```ollama create level1 -f level1/Modelfile.one```
+- ```ollama create level2 -f level2/Modelfile.two``` 
+- ```ollama create level3 -f level3/Modelfile.three```
+5. Run ```python level1/level1.py``` and get to hacking!
+6. When you're ready to move on to the next level, run the same command and run: ```python level2/level2.py``` or ```python level3/level3.py``` 
 
 
 ## Disclaimer:
