@@ -10,6 +10,9 @@ This is a local, Ollama-powered prompt injection CTF that has 3 levels for intre
 
 **Level 3**: The hardest level. It features RAG retrieval and a stronger system prompt. 
 
+
+Note: For level 3, the payload delivery depends heavily on how the LLM weighs retrieved context versus its system prompt. If your injection fails, try different placement, formatting, or wording in your payload. Sometimes, even confidently sending it a fake flag may cause its helpful nature to kick in and correct you.
+
 Your goal is to get the flag from the LLM in each challenge. Use all the tricks in your toolbox. If you get stuck and feel like giving up, you can always inspect the source code, though I encourage you to try your best before looking at the answers. 
 
 
